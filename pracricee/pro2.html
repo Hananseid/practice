@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <style>
+    body {
+      background-color: #d3d3d3;
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      width: 300px;
+      margin: 50px auto;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      background-color: white;
+      text-align: center;
+    }
+
+    .header {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .profile-pic {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      background-color: black;
+    }
+
+    .info {
+      padding: 15px;
+      background-color: rgb(173, 139, 139);
+      color: white;
+    }
+
+    .info p {
+      font-size: 16px;
+      margin: 8px 0;
+      line-height: 20px;
+    }
+
+    .info strong {
+      font-weight: bold;
+    }
+
+    .contact-title {
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .social-icons {
+      margin: 15px 0;
+    }
+
+    .social-icons a {
+      margin: 0 8px;
+      text-decoration: none;
+      font-size: 28px;
+      color: black;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: gray;
+    }
+  </style>
+  <!-- FontAwesome CDN (free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="card">
+    <div class="header">User Profile Card</div>
+    <img class="profile-pic" src="pic1.jpg" alt="Profile Picture">
+    <div class="info">
+      <p>Name: <strong>Hanan Seid</strong></p>
+      <p>Status: <strong>Student</strong></p>
+      <p>Institution: <strong>Addis Ababa University</strong></p>
+      <p style="font-size: 25px;" class="contact-title">Contact</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/hananseid" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://t.me/han_bts_army" target="_blank"><i class="fab fa-telegram"></i></a>
+        <a href="https://github.com/hananseid" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/han_anseid" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
